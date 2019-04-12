@@ -28,6 +28,8 @@ extension SpikeService: ServiceAuthenticationUI {
                 options: [
                     (title: LocalizedString("Spike", comment: "Spike server option title"),
                      value: KnownSpikeServers.LOCAL_SPIKE.rawValue)
+                    (title: LocalizedString("Nightscout", comment: "Custom Nightscout server option title"),
+                     value: KnownSpikeServers.CUSTOM.rawValue)
                     
                 ]
             )
