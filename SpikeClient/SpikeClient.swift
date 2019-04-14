@@ -31,7 +31,7 @@ public enum SpikeError: Error {
 
 public enum KnownSpikeServers: String {
     case LOCAL_SPIKE="http://127.0.0.1:1979"
-    case CUSTOM="http://cyoungshareserver.herokuapp.com"
+    case CUSTOM="https://cyoungshareserver.herokuapp.com"
     
 
 }
